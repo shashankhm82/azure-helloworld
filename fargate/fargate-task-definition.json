@@ -4,7 +4,7 @@
   "executionRoleArn": "ecsTaskExecutionRole",
   "containerDefinitions": [{
     "name": "helloworld-app",
-    "image": "7088.dkr.ecr.ap-southeast-2.amazonaws.com/testworld:#{Build.BuildId}#",
+    "image": "992382646604.dkr.ecr.us-west-2.amazonaws.com/demo-repo:#{Build.BuildId}#",
     "portMappings": [{
       "containerPort": 8080,
       "hostPort": 8080,
