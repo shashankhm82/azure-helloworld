@@ -1,6 +1,8 @@
 trigger: 
  - main
-
+pool: 
+   name: 'demo-agent'
+   vmImage: 'ubuntu-latest'
 variables:
   - group: dev
 # stages:
