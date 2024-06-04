@@ -1,6 +1,6 @@
 trigger: 
  - main
-
+pool: demo-agent
 variables:
   - group: dev
 # stages:
